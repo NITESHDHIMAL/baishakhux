@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table, tr, th, td {
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+
+ 
+ 
+    <table>
+      <thead>
+        <tr>
+            <th>Sr.No</th>
+            <th>Rool No</th>
+            <th>Name</th>
+            <th>Team</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+            <td>1</td>
+            <td>1001</td>
+            <td>John</td>
+            <td rowspan="2">Red</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <!-- <td>1002</td> -->
+            <td colspan="2">1002</td>
+            <!-- <td>Peter</td> -->
+            <!-- <td>Red</td> -->
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>1003</td>
+            <td>Henry</td>
+            <td>Green</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+      </tfoot>
+
+    </table>
+
+
+
+    <table>
+
+        <thead>
+            <tr>
+                <th colspan="4">New Employees Records</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>name</td>
+                <td colspan="2">jobs</td>
+                <td>Working Experience</td>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>Software Engineer</td>
+                <td>Data Analyst</td>
+                <td rowspan="2">John</td>
+            </tr>
+            <tr>
+                <td>Ale</td>
+                <td colspan="2">Senior Web Developer</td>
+            </tr>
+            <tr>
+                <td>Jack</td>
+                <td>junior Tech Writer</td>
+                <td>Blogger Writer</td>
+                <td>6 Months</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+
+
+
+    <table>
+        <thead>
+            <tr>
+                <th>header</th>
+                <th>header</th>
+                <th>header</th>
+                <th>header</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="4">span</td>
+                <td colspan="3">span</td>
+            </tr>
+
+            <tr>
+                <td colspan="2">span</td>
+                <td rowspan="3">span</td>
+            </tr>
+            <tr>
+                <td rowspan="2">span</td>
+                <td>span</td>
+            </tr>
+
+            <tr>
+                <td>span</td>
+            </tr>
+
+        </tbody>
+
+
+    </table>
+ 
+
+    
+</body>
+</html>
