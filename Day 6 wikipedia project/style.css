@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+}
+
+ 
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    background-color: lightblue;
+    position: sticky;
+    top: 0;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    scroll-margin-top: ;
+}
+
+
+
