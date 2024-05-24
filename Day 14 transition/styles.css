@@ -140,6 +140,7 @@ a{
 .quality{
     background-color:#050709;
     padding-bottom: 100px;
+    padding-top: 5rem;
 }
 .qheading{
     font-size: 45px;
@@ -175,6 +176,7 @@ a{
     background-color:#050709;
     display: flex;
     justify-content: space-around;
+    padding-bottom: 7rem;
 }
 
 .exheading{
@@ -197,7 +199,56 @@ a{
 .myeducation{
     width: 40%;
 }
-.
+
+/* skills starts  */
+.skillsection{
+    background-color:#0f0715;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+.skillheader{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+    margin-bottom: 4rem;
+
+}
+.gparent{
+    display: flex;
+    justify-content: center;
+}
+.parentskill{
+    display: flex;
+    width: 85%;
+    /* justify-content: space-between; */
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+.skills p {
+    text-align: center;
+    margin-top: 1rem;
+}
+.items{
+    padding: 2.5rem 3.5rem;
+    border-radius: 1.5rem;
+    background-color: #140c1c;
+    display: flex;
+    row-gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    transition: all 2s;
+}
+.items:hover{
+    background-color: #7f4bea;
+    border: 2px solid #d8ceec;
+    opacity: 0.2;
+}
+.items img{
+    width: 55px;
+}
+
 
 
 
