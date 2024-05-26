@@ -1,0 +1,93 @@
+/* syntax  */
+@keyframes colorchange {
+    from {
+        background-color: aqua;
+        top: 0;
+    }
+
+    to {
+        background-color: blue;
+        top: 200px;
+    }
+}
+
+
+
+.box {
+    height: 50px;
+    width: 50px;
+    border-radius: 1rem;
+    background-color: lightgreen;
+    /* margin: auto; */
+
+    text-align: center;
+    align-content: center;
+    color: white;
+
+    position: relative;
+    animation-name: colorchange;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+
+/* @keyframes colorchange {
+    0% {
+        background-color: aqua;
+        top: 0;
+        left: 0;
+    }
+
+    25% {
+        background-color: blue;
+        left: 400px;
+        top: 0;
+    }
+
+    50% {
+        background-color: purple;
+        top: 400px;
+        left: 400px;
+    }
+
+    75% {
+        background-color: red;
+        left: 0;
+        top: 400px;
+    }
+
+    100% {
+        background-color: yellow;
+        top: 0;
+        left: 0;
+    }
+} */
+
+
+
+@keyframes colorchange {
+    0% {
+        background-color: aqua;
+        width: 0;
+    }
+    
+    25% {
+        background-color: blue;
+        width: 25%;
+    }
+    
+    50% {
+        background-color: purple;
+        width: 50;
+    }
+    
+    75% {
+        background-color: red;
+        width: 75%;
+    }
+    
+    100% {
+        background-color: yellow;
+        width: 100%;
+    }
+}
