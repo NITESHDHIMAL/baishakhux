@@ -89,8 +89,6 @@ function App() {
   // age => 20 - 25 => Adult 
 
   // mark sheet 
-  // 0 - 35 => D 
-  // 40 -  
 
   let marks = 10;
   
